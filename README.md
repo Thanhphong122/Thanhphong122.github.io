@@ -12,7 +12,7 @@
 
 ## 🛠️ Công nghệ sử dụng
 - HTML5
-- CSS3 (Dark Mode + Animation)
+- CSS3 
 - JavaScript
 
 
@@ -40,7 +40,6 @@
 - GitHub: https://github.com/Thanhphong122
 - Facebook: https://facebook.com/yourname  
 
----
 
 
 ### Cách 1: Xem online
