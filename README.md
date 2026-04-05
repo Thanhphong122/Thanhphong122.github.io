@@ -1,4 +1,3 @@
-# 🌐 Portfolio Website
 
 ##  Giới thiệu
 Đây là website portfolio cá nhân  được xây dựng nhằm giới thiệu bản thân, kỹ năng và các dự án đã thực hiện trong quá trình học tập và phát triển trong lĩnh vực Công nghệ Thông tin với định hướng trở thành một Web Developer.
@@ -42,5 +41,4 @@
 
 
 
-### Cách 1: Xem online
-Chỉ cần truy cập link:
+
