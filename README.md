@@ -1,14 +1,12 @@
 # 🌐 Portfolio Website
 
-## 📌 Giới thiệu
-Đây là website portfolio cá nhân của tôi được xây dựng nhằm giới thiệu bản thân, kỹ năng và các dự án đã thực hiện trong quá trình học tập và phát triển trong lĩnh vực Công nghệ Thông tin.
-
-Website được triển khai bằng GitHub Pages, giúp truy cập dễ dàng và hoàn toàn miễn phí.
+##  Giới thiệu
+Đây là website portfolio cá nhân  được xây dựng nhằm giới thiệu bản thân, kỹ năng và các dự án đã thực hiện trong quá trình học tập và phát triển trong lĩnh vực Công nghệ Thông tin với định hướng trở thành một Web Developer.
 
 ---
 
-## 🚀 Demo
-👉 Link website: https://your-username.github.io
+## 
+👉 Link website: https://thanhphong122.github.io
 
 ---
 
@@ -16,22 +14,18 @@ Website được triển khai bằng GitHub Pages, giúp truy cập dễ dàng v
 - HTML5
 - CSS3 (Dark Mode + Animation)
 - JavaScript
-- GitHub Pages
+
 
 ---
 
-## 📂 Nội dung chính
+## Các nội dung của Portfolio gồm:
 
 ### 👤 Giới thiệu
 - Thông tin cá nhân
 - Định hướng nghề nghiệp
-- Mục tiêu phát triển
 
 ### 💻 Dự án
-- Website bán hàng  
-- Hệ thống quản lý sinh viên  
-- Portfolio cá nhân  
-
+- Các dự án đã thực hiện
 ### 🧠 Kỹ năng
 - HTML, CSS, JavaScript  
 - PHP, MySQL  
@@ -42,8 +36,8 @@ Website được triển khai bằng GitHub Pages, giúp truy cập dễ dàng v
 - IELTS (hoặc chứng chỉ khác)
 
 ### 📞 Liên hệ
-- Email: yourmail@gmail.com  
-- GitHub: https://github.com/your-username  
+-Email: thanhphong99ng13@gmail.com
+- GitHub: https://github.com/Thanhphong122
 - Facebook: https://facebook.com/yourname  
 
 ---
