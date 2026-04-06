@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio- Ngô Thanh Phong</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #020617;
+    color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(2,6,23,0.8);
+    backdrop-filter: blur(10px);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #cbd5f5;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 45px;
+    color: #38bdf8;
+}
+
+.hero span {
+    color: #22c55e;
+}
+
+.hero p {
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #38bdf8, #22c55e);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #020617;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* SECTION */
+section {
+    padding: 100px 50px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* CARD */
+.card {
+    background: #0f172a;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 1px solid #1e293b;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #38bdf8;
+}
+
+/* SKILL BAR */
+.skill {
+    margin: 10px 0;
+}
+
+.skill-bar {
+    height: 8px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+.skill-fill {
+    height: 8px;
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+/* TIMELINE */
+.timeline {
+    border-left: 2px solid #38bdf8;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 5px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* ANIMATION */
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.intro {
+    white-space: pre-line;
+}
+/* MOBILE */
+@media(max-width: 768px) {
+    section {
+        padding: 80px 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MyPortfolio</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Dự án</a>
+        <a href="#experience">Kinh nghiệm</a>
+        <a href="#certs">Chứng chỉ</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <h2>Xin chào 👋</h2>
+    <h2>Tôi là <span>Web Developer</span></h2>
+    <p>Sinh viên CNTT | Đam mê lập trình web</p>
+    <button class="btn">Xem Portfolio</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade">
+    <h2>Giới thiệu</h2>
+    <p class="intro">
+    Họ tên: Ngô Thanh Phong
+    Học tại: Trường Đại học Sư phạm Thành phố Hồ Chí Minh               
+    Ngành: Công nghệ thông tin
+    Định hướng: Trở thành một nhà phát triển Web có thể thiết kế ra nhiều trang web tương tác người dùng tốt và được thực hiện nhiều dự án web lớn.
+     Có kinh nghiệm  lập trình với HTML, CSS, JavaScript và PHP.
+</p>
+    
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="fade">
+    <h2>Kỹ năng</h2>
+
+    <div class="skill">
+        HTML
+        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        CSS
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+
+    <div class="skill">
+        JavaScript
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    </div>
+
+    <div class="skill">
+        PHP
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+    </div>
+    <div class="skill">
+        Database
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="fade">
+    <h2>Dự án</h2>
+    <div class="grid">
+
+        <div class="card">
+            <h3>Website bán hoa</h3>
+            <p>HTML, CSS, JS</p>
+        </div>
+
+        <div class="card">
+            <h3>Quản lý đặt phòng khách sạn</h3>
+            <p>PHP + MySQL</p>
+        </div>
+        <div class="card">
+            <h3>Website bán hàng </h3>
+            <p>HTML, CSS, JS, PHP</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio cá nhân</h3>
+            <p>GitHub Pages</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="fade">
+    <h2>Kinh nghiệm</h2>
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>2025- Hiện tại</h3>
+            <p>Nâng cao khả năng lập trình Web</p>
+            <p>Xây dựng nhiều dự án cá nhân để bổ sung vào CV </p>
+            <p>Cải thiện kỹ năng giao tiếp và trình độ ngoại ngữ</p>
+
+        </div>
+        <div class="timeline-item">
+            <h3>2025</h3>
+            <p>Thực hành và tìm hiểu website Fullstack</p>
+            <p>Xây dựng dự án quản lý khách sạn có liên kết cơ sở dữ liệu </p>
+            <p>Học và tìm hiểu về PHP</p>
+
+        </div>
+
+        <div class="timeline-item">
+            <h3>2024</h3>
+            <p>Tìm hiểu sâu hơn về cách lập trình Web</p>
+            <p>Tìm hiểu về cơ sở dữ liệu</p>
+            <p>Thực hành các hệ cơ sở dữ liệu khác nhau: SQL, MongoDB</p>
+            <p>Thực hiện liên kết cơ sở dữ liệu vào website</p>
+
+        </div>
+
+        <div class="timeline-item">
+            <h3>2023</h3>
+            <p>Bắt đầu học lập trình</p>
+            <p>Làm quen với HTML, CSS, Javascript</p>
+            <p>Thực hiện website bán hoa nhưng chỉ có Frontend</p>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- CERT -->
+<section id="certs" class="fade">
+    <h2>Chứng chỉ</h2>
+    <div class="grid">
+        <div class="card">Coursera Web Dev</div>
+        <div class="card">IELTS 6.5</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade contact">
+    <h2>Liên hệ</h2>
+    <p>Email: thanhphong99ng13@gmail.com</p>
+    <p>GitHub: github.com/Thanhphong122</p>
+    <p>Facebook: fb.com/yourname</p>
+</section>
+
+<footer>
+    <p>© 2026 - Ngô Thanh Phong</p>
+</footer>
+
+<script>
+const elements = document.querySelectorAll('.fade');
+
+window.addEventListener('scroll', () => {
+    elements.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+            el.classList.add('show');
+        }
+    });
+});
+</script>
+
+</body>
+</html>
