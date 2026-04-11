@@ -36,9 +36,7 @@ Link website: https://thanhphong122.github.io
 
 ### Liên hệ
 -Email: thanhphong99ng13@gmail.com
-- GitHub: https://github.com/Thanhphong122
-- Facebook: https://facebook.com/yourname  
-
+-GitHub: https://github.com/Thanhphong122
 
 
 
