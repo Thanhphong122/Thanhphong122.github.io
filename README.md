@@ -5,11 +5,11 @@
 ---
 
 ## 
-👉 Link website: https://thanhphong122.github.io
+Link website: https://thanhphong122.github.io
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 - HTML5
 - CSS3 
 - JavaScript
@@ -19,22 +19,22 @@
 
 ## Các nội dung của Portfolio gồm:
 
-### 👤 Giới thiệu
+### Giới thiệu
 - Thông tin cá nhân
 - Định hướng nghề nghiệp
 
-### 💻 Dự án
+### Dự án
 - Các dự án đã thực hiện
-### 🧠 Kỹ năng
+### Kỹ năng
 - HTML, CSS, JavaScript  
 - PHP, MySQL  
 - Git & GitHub  
 
-### 🏆 Chứng chỉ
+### Chứng chỉ
 - Coursera Web Development  
 - IELTS (hoặc chứng chỉ khác)
 
-### 📞 Liên hệ
+### Liên hệ
 -Email: thanhphong99ng13@gmail.com
 - GitHub: https://github.com/Thanhphong122
 - Facebook: https://facebook.com/yourname  
